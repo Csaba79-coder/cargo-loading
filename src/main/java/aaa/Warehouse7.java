@@ -118,3 +118,25 @@ public class Warehouse7 {
         }
     }
 }
+
+/*
+Oszlopok szerinti pakolás (a jelenlegi megoldás):
+Előnyök:
+
+Strukturáltabb és könnyebben követhető, ha vertikálisan szeretnél rétegeket kialakítani.
+Jó megoldás, ha a súlyeloszlás miatt fontos, hogy az alsóbb rétegek stabilabbak legyenek.
+Könnyebb egy magas raktárt kihasználni, mert az oszloponkénti pakolás következetesen tölti ki a magasságot.
+Hátrányok:
+
+A szélesség és hosszúság kitöltése lehet kevésbé optimális, ha túl sok hely marad a dobozok mellett.
+Sorok szerinti pakolás (alternatív megoldás):
+Előnyök:
+
+A szélesség és hosszúság jobban kihasználható, mivel a dobozok először vízszintes sorokban kerülnek elhelyezésre.
+Könnyebb hozzáférni az egyes rétegekhez, ha a pakolást a magassági tengely szerint rétegekre bontod.
+Hátrányok:
+
+Ha egy sor kitöltése után marad hely, akkor a magasságban több réteg kialakításakor lehet nehezebb optimalizálni.
+A raktár teljes magasságának kihasználása kevésbé természetes, ha sok alacsony doboz van.
+
+ */
