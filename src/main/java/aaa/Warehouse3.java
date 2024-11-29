@@ -89,13 +89,6 @@ public class Warehouse3 {
             }
         }
 
-        // Kimenet
-        if (canFit) {
-            output.add("Minden doboz sikeresen elfért a tárolóban!");
-        } else {
-            output.add("Nem minden doboz fért el a tárolóban!");
-        }
-
         // Kiíratás
         for (String line : output) {
             System.out.println(line);
