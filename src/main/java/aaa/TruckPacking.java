@@ -74,6 +74,16 @@ public class TruckPacking {
     A teherautó aljától a tetejéig tartó irány (pl. alulról felfelé).
     Ez jelenti a megrakott magasságot: az egyes dobozok egymás tetejére pakolását.
      */
+
+    /*
+    A program a következő szempontok szerint állítja sorba a dobozokat és hasonlítja össze:
+
+    Súly: A dobozokat súly szerint csökkenő sorrendbe rendezi, hogy először a nehezebb dobozok kerüljenek bepakolásra.
+    Méret: Mivel a program heurisztikus, a méretet is figyelembe kell venni, bár ebben a példában az algoritmus alapvetően csak a súlyra összpontosít.
+    Elérhetőség: A dobozok elhelyezését az aktuális szabad hely (x, y, z koordináták) és a teherautó maximális méretei (szélesség, hosszúság, magasság) korlátozzák. A dobozokat úgy próbálja elhelyezni, hogy ne lépjék túl a teherautó térfogatát és a súlykorlátot.
+    Súlykorlát: Az aktuális súly figyelése, hogy ne lépjük túl a maximális teherbírást (maxWeight).
+     */
+    // TODO: kamionok között egyenletes eloszlás ...
     public static void main(String[] args) {
         List<Box> boxes = new ArrayList<>();
         List<String> cannotFitBoxes = new ArrayList<>();
