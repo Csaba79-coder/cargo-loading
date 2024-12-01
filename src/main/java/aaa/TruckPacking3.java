@@ -46,6 +46,17 @@ public class TruckPacking3 {
         boxes.add(new Box(16, 30, 15, 15, 40));
         boxes.add(new Box(17, 30, 15, 15, 40));
         boxes.add(new Box(18, 30, 15, 15, 40));
+        boxes.add(new Box(19, 50, 15, 15, 40));
+        boxes.add(new Box(20, 50, 15, 15, 40));
+        boxes.add(new Box(21, 30, 15, 15, 40));
+        boxes.add(new Box(22, 50, 15, 15, 40));
+        boxes.add(new Box(23, 50, 15, 15, 40));
+        boxes.add(new Box(24, 50, 15, 15, 40));
+        boxes.add(new Box(25, 50, 15, 15, 40));
+        boxes.add(new Box(26, 50, 15, 15, 40));
+        boxes.add(new Box(27, 50, 15, 15, 40));
+        boxes.add(new Box(28, 50, 15, 15, 40));
+        boxes.add(new Box(29, 50, 15, 15, 40));
 
         // Packing the boxes into the truck
         packBoxes(boxes);
